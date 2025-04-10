@@ -17,11 +17,11 @@ Here are some ideas to get you started:
 <h1 align="center">Hi 👋, I'm Akash</h1>
 <h3 align="center">Just another dev</h3>
 
-- 👨‍💻 All of my projects are available at my GitHub: [https://github.com/kambleakash0](https://github.com/kambleakash0)
+- 👨‍💻 All of my open-source projects are available on my GitHub: [https://github.com/kambleakash0](https://github.com/kambleakash0)
 
 - 📫 How you can reach me: **kambleakash0@gmail.com**
 
-- 📄 Know about my experiences: [Resume on GDrive](https://drive.google.com/file/d/128hHgNFxqOq1QIHX6yEObJsSYCpEivzn/view)
+- 📄 Resume: [Resume on GDrive](https://drive.google.com/file/d/128hHgNFxqOq1QIHX6yEObJsSYCpEivzn/view)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
