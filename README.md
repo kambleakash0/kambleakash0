@@ -15,7 +15,7 @@
   <a href="https://linkedin.com/in/kambleakash">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
-  <a href="https://instagram.com/_akash_kamble">
+  <a href="https://instagram.com/rooted_ak">
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/>
   </a>
 </div>
@@ -24,10 +24,10 @@
 
 ## ⚡ About Me
 
-- 🔭 I’m currently working on **Full Stack Projects**
-- 🌱 I’m currently learning **Advanced Cloud Architecture**
+- 🔭 I’m currently working on **My own job hunt lol**
+- 🌱 I’m currently learning **Deep Learning**
 - 👯 I’m looking to collaborate on **Open Source Projects**
-- 💬 Ask me about **React, Node.js, and Cloud Computing**
+- 💬 Ask me about **Python, Docker, Machine Learning, Deep Learning, and Cloud Computing, etc.**
 - ⚡ Fun fact: **I can center a div without Googling it! (Sometimes)**
 
 <br/>
