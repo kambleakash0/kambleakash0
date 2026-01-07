@@ -99,7 +99,7 @@
 ## 📈 GitHub Stats
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=kambleakash0&theme=tokyonight&no-frame=true&margin-w=15" alt="Trophies" />
+  <img src="profile-3d-contrib/profile-night-green.svg" alt="3D Contribution Graph" />
 </div>
 
 <br/>
