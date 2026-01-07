@@ -105,7 +105,7 @@
 <br/>
 
 <div align="center">
-  <img src="https://github-readme-stats-liart-beta-19.vercel.app/api?username=kambleakash0&show_icons=true&locale=en&layout=compact&theme=tokyonight&count_private=true" alt="Stats" height="150" />
+  <img src="https://github-readme-stats-liart-beta-19.vercel.app/api?username=kambleakash0&show_icons=true&locale=en&layout=compact&theme=tokyonight&count_private=true&include_all_commits=true" alt="Stats" height="150" />
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=kambleakash0&bg_color=1a1b28&color=628fdb&line=628fdb&point=39bdaf&area=true&hide_border=false&border_color=e4e2e2&radius=16&area_color=628fdb" alt="Activity Graph" height="150" />
 </div>
 
