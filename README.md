@@ -27,7 +27,7 @@
 - 🔭 I’m currently working on **My own job hunt lol**
 - 🌱 I’m currently learning **Deep Learning**
 - 👯 I’m looking to collaborate on **Open Source Projects**
-- 💬 Ask me about **Python, Docker, Machine Learning, Deep Learning, and Cloud Computing, etc.**
+- 💬 Ask me about **Python, Docker, Machine Learning, Deep Learning, and Cloud Computing, LLMs/Coding Agents,etc.**
 - ⚡ Fun fact: **I can center a div without Googling it! (Sometimes)**
 
 <br/>
