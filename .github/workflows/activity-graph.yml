@@ -25,6 +25,12 @@ jobs:
           output_path: profile/activity-graph.svg
           token: ${{ secrets.PERSONAL_GITHUB_TOKEN }}
 
+      - name: Thicken card border to match the stat cards
+        # The renderer hardcodes the frame stroke at 1px and clips half of it at the
+        # canvas edge, so the border renders ~2x thinner than the github-readme-stats
+        # cards. Bump that single stroke so the border reads at the same weight.
+        run: sed -i 's/stroke-width:1;"/stroke-width:4;"/' profile/activity-graph.svg
+
       - name: Commit & Push
         run: |
           git config user.name github-actions
