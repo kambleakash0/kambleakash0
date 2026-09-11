@@ -1,0 +1,39 @@
+name: Update Activity Graph
+
+on:
+  schedule:
+    # Daily at 12:00 UTC — offset from readme-cards (06:00) and profile-3d (18:00) to avoid push races.
+    - cron: "0 12 * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: generate-activity-graph
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Activity graph
+        # Pinned to the v1.0.0 release commit; renders the same line+area graph as the
+        # (now-dead) github-readme-activity-graph Vercel instance, committed as a static SVG.
+        uses: maurodesouza/github-readme-activity-graph-action@6411849745757299611a795fef822a31ca8d1d02 # v1.0.0
+        with:
+          username: kambleakash0
+          options: bg_color=1a1b28&color=628fdb&line=628fdb&point=39bdaf&area=true&hide_border=false&border_color=e4e2e2&radius=16&area_color=628fdb
+          output_path: profile/activity-graph.svg
+          token: ${{ secrets.PERSONAL_GITHUB_TOKEN }}
+
+      - name: Commit & Push
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add profile/activity-graph.svg
+          if git diff --staged --quiet; then
+            echo "No activity-graph changes to commit."
+            exit 0
+          fi
+          git commit -m "generated: activity graph"
+          git pull --rebase origin main
+          git push
