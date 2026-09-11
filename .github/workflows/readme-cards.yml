@@ -1,0 +1,45 @@
+name: Update README Stat Cards
+
+on:
+  schedule:
+    # Daily at 06:00 UTC — offset from the 3D-contrib action (18:00 UTC) to avoid push races.
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: generate-readme-stat-cards
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Overall stats card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=kambleakash0&show_icons=true&locale=en&theme=tokyonight&include_all_commits=true
+          path: profile/stats.svg
+          token: ${{ secrets.PERSONAL_GITHUB_TOKEN }}
+
+      - name: Top languages card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: username=kambleakash0&layout=compact&locale=en&theme=tokyonight
+          path: profile/top-langs.svg
+          token: ${{ secrets.PERSONAL_GITHUB_TOKEN }}
+
+      - name: Commit & Push
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add profile/stats.svg profile/top-langs.svg
+          if git diff --staged --quiet; then
+            echo "No card changes to commit."
+            exit 0
+          fi
+          git commit -m "generated: readme stat cards"
+          git pull --rebase origin main
+          git push
