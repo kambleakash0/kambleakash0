@@ -117,7 +117,7 @@
 
 <div align="center">
   <img src="profile/stats.svg" alt="Stats" height="150" />
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=kambleakash0&bg_color=1a1b28&color=628fdb&line=628fdb&point=39bdaf&area=true&hide_border=false&border_color=e4e2e2&radius=16&area_color=628fdb" alt="Activity Graph" height="150" />
+  <img src="profile/activity-graph.svg" alt="Activity Graph" height="150" />
 </div>
 
 <div align="center">
