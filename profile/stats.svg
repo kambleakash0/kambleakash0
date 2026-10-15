@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Akash K&#39;s GitHub Stats, Rank: A-</title>
-        <desc id="descId">Total Stars Earned: 12, Total Commits  : 1189, Total PRs: 255, Total Issues: 175, Contributed to (last year): 16</desc>
+        <desc id="descId">Total Stars Earned: 12, Total Commits  : 1188, Total PRs: 255, Total Issues: 175, Contributed to (last year): 16</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 92.28149537184508;
+        stroke-dashoffset: 92.29423450652898;
       }
     }
   
